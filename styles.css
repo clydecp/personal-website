@@ -1,62 +1,73 @@
-/* Reset default browser styles */
-* {
+/* Resetting default margin and padding */
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Apply styles to the body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f8f8;
-    color: #333;
+/* Page container styling */
+div#page {
+    border: 1px solid purple;
+    width: 100%; /* Adjust to your desired width */
+    max-width: 1000px; /* Example maximum width */
+    margin: 0 auto;
+    padding: 5px;
+    text-align: left;
 }
 
-/* Apply styles to the header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center; /* Center header text */
-}
-
-/* Apply styles to the container */
-.container {
-    display: flex;
-}
-
-/* Apply styles to the navigation menu */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 2rem;
-    flex: 0 0 200px; /* Set navigation width */
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    margin-bottom: 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Apply styles to the main content */
-main {
-    padding: 2rem;
-    flex: 1; /* Main content takes remaining space */
-}
-
-/* Apply styles to the footer */
-footer {
-    background-color: #333;
-    color: #fff;
+/* Header styling */
+div#header {
+    border: 2px solid red;
+    height: 30px;
     text-align: center;
-    padding: 1rem;
+    padding: 5px;
+}
+
+/* Menu styling */
+div#menu {
+    border: 2px solid green;
+    width: 15%; /* Adjust to your desired width */
+    float: left;
+    margin: 10px 1%; /* Adjust margins as needed */
+    height: 350px;
+}
+
+/* Menu list styling */
+div#menu ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the menu items horizontal */
+    flex-direction: column; /* Adjust the direction to column */
+}
+
+/* Menu item (tab) styling */
+div#menu li {
+    border-bottom: 1px solid green; /* Add a border to each tab */
+    padding: 10px 15px; /* Adjust padding for each tab */
+    margin: 0;
+    cursor: pointer; /* Change cursor style when hovering over tabs */
+    text-align: center; /* Center text in each tab */
+}
+
+/* Menu item hover effect */
+div#menu li:hover {
+    background-color: lightgray; /* Change background color when hovering over tabs */
+}
+
+/* Content styling */
+div#content {
+    border: 2px solid blue;
+    width: 65%; /* Adjust to your desired width */
+    float: left;
+    margin: 10px 1%; /* Adjust margins as needed */
+    min-height: 500px;
+}
+
+/* Footer styling */
+div#footer {
+    border: 2px solid red;
+    clear: both; /* Ensure footer clears floated elements */
+    height: 30px;
+    text-align: center;
+    padding: 5px;
 }
