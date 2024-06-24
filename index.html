@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <div id="page">
-        
-        <div id="menu">
-            <ul class="menu">
-                <li data-index="0" class="menu-filler"></li>
+    <div class="container">
 
-                <li data-index="1" class="menu-item selected"><a href="index.html">Home</a></li>
-                <li data-index="2" class="menu-item"><a href="about.html">About</a></li>
-                <li data-index="3" class="menu-item"><a href="projects.html">Projects</a></li>
-                <li data-index="4" class="menu-item"><a href="contact.html">Contact</a></li>
-
-                <li data-index="5" class="menu-filler"></li>
-            </ul>
+        <!-- Left Column -->
+        <div id="left-column" class="column">
+            <div id="header" class="header">Header</div>
+            <div class="menu">
+                <div id="name" class="item underline active" style="font-size: 3rem;">Cameron Clyde</div>
+                <div id="about" class="item underline">About</div>
+                <div id="portfolio" class="item underline">Portfolio</div>
+                <div id="contact" class="item underline">Contact</div>
+            </div>
+            <div class="footer scroll-text">
+                <span>cameronclyde.com</span>
+            </div>
         </div>
 
-        <!-- Content section -->
-        <div id="content">
-            <p>This is the Home Page</p>
-        </div>
+        <!-- Right Column -->
+        <div id="right-column" class="column">
+            <div class="cell" style="align-items: flex-end; justify-content: end; padding-right: 2rem;">+</div>
+            <div class="cell" style="align-items: flex-end;">+</div>
+            <div class="cell" style="align-items: flex-end; justify-content: start; padding-left: 2rem;">+</div>
 
-        <!-- Footer section -->
-        <div id="footer">
-            Footer
+            <div class="cell" style="justify-content: end; padding-right: 2rem;">+</div>
+            <div id="center-cell" class="cell ascii-image">
+                <pre id="right_text"></pre>
+            </div>
+            <div class="cell" style="justify-content: start; padding-left: 2rem;">+</div>
+
+            <div class="cell" style="align-items: flex-start; justify-content: end; padding-right: 2rem;">+</div>
+            <div class="cell" style="align-items: flex-start;">+</div>
+            <div class="cell" style="align-items: flex-start; justify-content: start; padding-left: 2rem;">+</div>
         </div>
     </div>
 </body>
