@@ -13,11 +13,30 @@ html, body {
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
     width: 100%;
-    font-size: 2rem;
     text-align: center;
-    /* border: 1px solid blue; */
     margin-top: auto;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+}
+
+a {
+    font-size: inherit;
+    text-decoration: none;
+    color:white;
+    color:white;
+}
+
+a:hover {
+    color: lightgray;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration: underline;
 }
 
 .scroll-text {
@@ -120,7 +139,9 @@ html, body {
 
 
 #center-cell {
-    align-items:center;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
     text-align: left;
     overflow: auto;
     font-size: 1.4rem;
@@ -133,8 +154,105 @@ html, body {
 
 .ascii-image {
     font-size: 0.8rem !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
+/* Portfilio tab */
+.portfolioList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.portfolioItem {
+    display: flex;
+    border: 1px solid black;
+    border-bottom: none;
+    width: 95%;
+    height: 10rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.portfolioItemText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.portfolioHeader {
+    display: flex;
+    font-size: 2rem;
+}
+
+.expend {
+    display: none;
+}
+
+.desc {
+    max-height: 50px;
+}
+
+.expend:checked ~ .desc {
+    min-height: fit-content;
+}
+
+.portfolioExpand:hover {
+    cursor: pointer;
+}
+
+
+.ellipsesPoints {
+    border: 1px solid black;
+    border-top: none;
+    padding: 1rem;
+    width: 95%;
+    text-align: center;
+}
+
+.expend:checked ~ .ellipsesPoints {
+    color: transparent;
+    font-size: 0rem;
+}
+
+/* Contact Form Tab */
+#contactForm {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column; 
+    width: 95%;
+}
+
+#contactForm input {
+    border: 1px solid black;
+    outline: none;
+    height: 2rem;
+    font-size: 1.4rem;
+}
+
+#contactForm textarea {
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    min-height: 2rem;
+    height: 15vh;
+}
+
+#contactForm button {
+    border: 1px solid black;
+    width: 5rem;
+    align-self: flex-end;
+    font-size: 1.2rem;
+}
+
+#contactForm button:hover{
+    background-color: darkgray;
+}
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
