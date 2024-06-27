@@ -1,0 +1,32 @@
+                             ______  __                       __      
+                            /\  _  \/\ \                     /\ \__   
+                            \ \ \L\ \ \ \____    ___   __  __\ \ ,_\  
+                             \ \  __ \ \ '__`\  / __`\/\ \/\ \\ \ \/  
+                              \ \ \/\ \ \ \L\ \/\ \L\ \ \ \_\ \\ \ \_ 
+                               \ \_\ \_\ \_,__/\ \____/\ \____/ \ \__\
+                                \/_/\/_/\/___/  \/___/  \/___/   \/__/
+
+-------------------------------------------------------------------------------------------------
+
+Hello! Welcome to my website.
+
+
+My name is Cameron Clyde and I am currently studying Computer Science at Virginia Commonwealth
+University on track to graduate May 2025. My degree is concentrated in Data Science, which
+focuses courses in Natural Language Processing and Artificial Intelligence/Machine Learning. 
+
+Throughout my studues I have gained experience through working on various projects and 
+hackathons. Check out some of my projects in the portfolio tab! 
+
+Outside of my studies I am an avid cyclist and rock climber. I am also an active member in 
+several clubs such as VCU Hyperloop, bike club, and Rock Climbing club. I was elected to 
+serve on the executive board in my school's Rock Climbing Club where I assisted in planning and 
+coordinating meetings, events, and fundraisers.
+
+Please feel free to contact me via my email or through the contact tab!
+                                                                                    |
+                                                                                    |
+                                                                                    |\O_
+                                                                                 ,/\|/
+                                                                                   /
+                                                                                   `
