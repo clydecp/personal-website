@@ -160,6 +160,7 @@ a:hover {
 }
 
 /* Portfilio tab */
+/* Portfolio tab */
 .portfolioList {
     list-style-type: none;
     display: flex;
@@ -195,16 +196,18 @@ a:hover {
 
 .desc {
     max-height: 50px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
 }
 
-.expend:checked ~ .desc {
-    min-height: fit-content;
+.expend:checked + .desc {
+    max-height: none;
+    height: auto;
 }
 
-.portfolioExpand:hover {
+.portfolioExpand {
     cursor: pointer;
 }
-
 
 .ellipsesPoints {
     border: 1px solid black;
@@ -214,10 +217,11 @@ a:hover {
     text-align: center;
 }
 
-.expend:checked ~ .ellipsesPoints {
+.expend:checked + .desc + .ellipsesPoints {
     color: transparent;
     font-size: 0rem;
 }
+
 
 /* Contact Form Tab */
 #contactForm {
