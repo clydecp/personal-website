@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="portfolioItemText">
                             <div class="portfolioHeader">NLP - Binary Classification Models</div>
                             <div style="padding-top: 5px;">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam purus vel sodales varius. Aliquam dolor arcu, semper sed aliquet at, laoreet id metus. Fusce blandit arcu eu pharetra tempus. Phasellus malesuada dui ac lacus placerat rutrum. Nam lobortis tortor neque, sed dignissim nulla imperdiet eu. Praesent ac odio at tellus tempus posuere a id nisi. Ut lacinia magna a massa pharetra, dictum tempor odio egestas. Vivamus sit amet imperdiet turpis. Proin rutrum lorem at urna congue, tempus semper justo fermentum. Phasellus consectetur posuere odio sit amet euismod. Sed orci orci, venenatis eget odio id, sodales tincidunt arcu. Morbi imperdiet nisi quis facilisis pretium. Etiam eleifend malesuada ex, in commodo tellus pharetra ac. Quisque laoreet tincidunt facilisis.
+                                <p>In this project, I built an NLP binary classification model using the Bag of Words approach. This method involves breaking down text into individual words and counting their occurrences to create a numerical representation of the text. By training the model on this data, I was able to classify text into two distinct categories accurately. This model can be used for problems such as word sense disambiguation, sentiment analysis, or any for any binary classification problem.</p>
                             </div>
                         </div>
                         <label class="portfolioExpand" for="expend2">Read More</label>
