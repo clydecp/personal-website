@@ -6,6 +6,7 @@ Welcome to my personal portfolio website! This website showcases my work, skills
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Files](#files)
 
 ## Overview
 
@@ -28,3 +29,10 @@ This portfolio website serves as a platform to display my personal projects, pro
 - **3D Graphics**: Three.js
 - **Build Tools**: Vite
 - **Hosting**: CloudFlare Pages
+
+## Files
+
+This repository contains both the source code and the deployed build.
+- **index.html**: Contains the structure and content of the website.
+- **assets/**: Contains stylesheets and scripts.
+- **src/**: Source code for the webpage.
