@@ -2,12 +2,6 @@
 
 Welcome to my personal portfolio website! This website showcases my work, skills, and projects in web development, with interactive features such as 3D animations built using Three.js.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Files](#files)
-
 ## Overview
 
 This portfolio website serves as a platform to display my personal projects, professional experiences, and skills. It includes sections for:
